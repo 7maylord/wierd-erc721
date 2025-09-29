@@ -11,6 +11,9 @@ contract BuggyERC721 {
 
     // this is a test git comment
 
+    // Another test git comment
+
+
     // W4: Anyone can mint
     function mint(address to, uint256 tokenId) public {
         ownerOf[tokenId] = to;
