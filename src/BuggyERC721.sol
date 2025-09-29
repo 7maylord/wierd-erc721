@@ -9,6 +9,8 @@ contract BuggyERC721 {
     event Transfer(address indexed from, address indexed to, uint256 indexed tokenId);
     // W3: No Approval event
 
+    // this is a test git comment
+
     // W4: Anyone can mint
     function mint(address to, uint256 tokenId) public {
         ownerOf[tokenId] = to;
