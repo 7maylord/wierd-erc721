@@ -13,6 +13,8 @@ contract BuggyERC721 {
 
     // Another test git comment
 
+    //yet another test git command
+
 
     // W4: Anyone can mint
     function mint(address to, uint256 tokenId) public {
